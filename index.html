@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Molle&display=swap" rel="stylesheet">
@@ -13,44 +14,47 @@
 <body>
     <header>
         <div class="title">
-            <h1>Braids My</h1>
-            <h1>Tranças</h1>
+            <h1 class="first-title">Braids My</h1>
+            <h1 class="first-title">Tranças</h1>
         </div>
 
-        <ul id="navigation">
+        <ul>
+            
+            <li class="option"><a href="">Home</a></li>
+            
+            <li class="option"><a href="">Serviços</a></li>
+            
+            <li class="option"><a href="">Sobre</a></li>
+            
+            <li class="option"><a href="">Contatos</a></li>
+            
             <a href="">
-                <li>Home</li>
+                <li class="login">Já tem uma conta?</li>
             </a>
-            <a href="">
-                <li>Serviços</li>
-            </a>
-            <a href="">
-                <li>Sobre</li>
-            </a>
-            <a href="">
-                <li>Contatos</li>
-            </a>
-            <a href="">
-                <li>Já tem uma conta?</li>
-            </a>
+            
         </ul>
     </header>
 
-    <aside>
-        <h2>Faça agora suas Tranças</h2>
-        <h2>na Braids My</h2>
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa soluta accusamus animi ea cum facilis ipsam, nihil reprehenderit nam modi vero, quod quae? Officiis, eius doloribus? At facilis doloribus harum.</p>
-
-        <form action="">
-            <input type="text" name="name" id="name" placeholder="Nome">
-            <input type="email" name="email" id="email" placeholder="E-mail">
-            <input type="submit" value="Enviar >">
-        </form>
-    </aside>
-
-    <article>
-        <img src="/components/images/img-girl.png" alt="Menina com tranças">
-    </article>
+    <main>
+        <aside>
+            <section class="title-2">
+                <h2 class="blue-title">Faça suas Tranças</h2>
+                <h2 class="second-title">na Braids My</h2>
+            </section>
+            <p>
+                Descubra o destino ideal para elevar a beleza do seu cabelo! Aqui, cada detalhe é pensado para realçar sua autoestima
+                e deixar você ainda mais radiante. Com uma variedade de modelos sofisticados e de alta qualidade, nossos produtos são c
+                riados com todo o carinho e delicadeza que você merece. Venha transformar seu visual e sinta a diferença!
+            </p>
+            <form action="">
+                <input type="text" name="name" id="name" placeholder="Nome">
+                <input type="email" name="email" id="email" placeholder="E-mail">
+                <input type="submit" value="Enviar">
+            </form>
+        </aside>
+        <article >
+            <img class="imgs" src="/components/images/img-girl.png" alt="Menina com tranças">
+        </article>
+    </main>
 </body>
 </html>
