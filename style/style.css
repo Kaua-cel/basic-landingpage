@@ -5,6 +5,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 8px;
+    height: auto;
 }
 
 a{
@@ -56,6 +57,8 @@ a:hover{
 
 .first-title{
     font-weight: 400;
+    font-family: Molle;
+    text-align: center;
 }
 
 .second-title{
